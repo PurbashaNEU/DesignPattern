@@ -1,28 +1,29 @@
-# Welcome to the course CSYE6200 - Object Oriented Design
+# Singleton factory Design Pattern
 > Northeastern University, College of Engineering
 
 
-## Professor: Daniel Peters
-
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
-
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
+## Purbasha Pan
 
 ### SetUp Instructions
 1. Please clone the repository on your local system
 2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
+### Overview
+Derived Classes from Stock :
+Class StockTypeA: Represents one of the derived classes from Stock.
+Class StockTypeB: Represents the second derived class from Stock.
 
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
+GoF Factory Method Pattern:
+For each derived class, created a factory that implements the GoF Factory Method pattern.
+FactoryTypeA: Factory for creating instances of StockTypeA.
+FactoryTypeB: Factory for creating instances of StockTypeB.
 
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
+GoF Factory Method and Singleton Pattern (Lazy):
+For each derived class, implemented a factory that combines the GoF Factory Method and Singleton patterns using Lazy initialization.
+LazySingletonFactoryTypeA: Lazy Singleton Factory for creating instances of StockTypeA.
+LazySingletonFactoryTypeB: Lazy Singleton Factory for creating instances of StockTypeB.
 
-Author:
-- Aditya Mulik (mulik.a@northeastern.edu)
-- Sai Akhil Vemula (vemula.v@northeastern.edu)
+GoF Factory Method and Singleton Pattern (Eager):
+For each derived class, implemented a factory that combines the GoF Factory Method and Singleton patterns using Eager initialization.
+EagerSingletonFactoryTypeA: Eager Singleton Factory for creating instances of StockTypeA.
+EagerSingletonFactoryTypeB: Eager Singleton Factory for creating instances of StockTypeB.
