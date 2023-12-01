@@ -1,28 +1,14 @@
-# Welcome to the course CSYE6200 - Object Oriented Design
+# State Design Pattern
 > Northeastern University, College of Engineering
 
 
-## Professor: Daniel Peters
-
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
-
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
+## Purbasha Pan
 
 ### SetUp Instructions
 1. Please clone the repository on your local system
 2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
-
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
-
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
-
-Author:
-- Aditya Mulik (mulik.a@northeastern.edu)
-- Sai Akhil Vemula (vemula.v@northeastern.edu)
+### Overview
+Designed a restaurant model using the state design pattern to represent different operational states, such as lunch and dinner, each with its corresponding menu.
+The lunch menu includes items like hot dogs, salads, and hamburgers, while the dinner menu offers dishes like soup, steak, and salads.
+Additionally, extended the model by adding optional dinner items like salmon and chicken. 
