@@ -1,28 +1,34 @@
-# Welcome to the course CSYE6200 - Object Oriented Design
+# Auto-Decorator Design Pattern
 > Northeastern University, College of Engineering
 
 
-## Professor: Daniel Peters
+## Purbasha Pan
 
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
-
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
 
 ### SetUp Instructions
 1. Please clone the repository on your local system
 2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
 
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
+### Overview
+Designed a simple Auto Ordering system so a User can configure their auto for purchase with their choice of following options:
+AC: Air Conditioning
+AWD: All Wheel Drive
+ABS: Anti-lock Braking system
+BB: Bumper to Bumper warrantee
+BDM: Blind-side Detection Monitor
 
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
+Designed an AutoAPI 
+–getPrice()
+–getDescription()
 
-Author:
-- Aditya Mulik (mulik.a@northeastern.edu)
-- Sai Akhil Vemula (vemula.v@northeastern.edu)
+Designed an Auto subclass which implements the AutoAPI:
+–SportyCoupeAuto 
+
+The object created from SportyCoupeAuto is my original object to be modified by my decorators
+The program shows user configured auto
+Price (with all user options) in dollars
+Sum cost of all selected user options
+Description as configured with all user options
+
+Concatenated description of all user options
