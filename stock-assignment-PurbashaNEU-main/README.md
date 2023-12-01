@@ -1,32 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8_7JYu04)
-# Welcome to the course CSYE6200 - Object Oriented Design
+
+# API and Interfaces 
 > Northeastern University, College of Engineering
 
 
-## Professor: Daniel Peters
-
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
-
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
+## Purbasha Pan
 
 ### SetUp Instructions
 1. Please clone the repository on your local system
 2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
-
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
-
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
-
-Author:
-- Aditya Mulik (mulik.a@northeastern.edu)
-- Sai Akhil Vemula (vemula.v@northeastern.edu)
-
-Maintained by : Purbasha Pan (002653065) 
-<b> Assignment url : https://classroom.github.com/assignment-invitations/06dee6b48d1941a07ecddecc6c600654/status</b>
+### Overview
+Designed and implemented a StockAPI super class with essential attributes, including ID, price, and description, and a toString() method.
+Additionally, created a Tradable interface with methods for placing bids and calculating performance metrics for stocks.
+Implemented the Stock class that extends the StockAPI, deriving two subclasses with their own performance metric algorithms, simulating market trends with six bids for each subclass, and observing changes in stock prices and metrics based on these bids. 
+The goal is to showcase the design of a flexible and extensible stock trading system that incorporates interfaces and subclasses to represent various stocks and their market behaviors.
