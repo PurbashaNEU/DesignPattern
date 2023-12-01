@@ -1,28 +1,22 @@
-# Welcome to the course CSYE6200 - Object Oriented Design
+# Adapter Design Pattern
 > Northeastern University, College of Engineering
 
+## Purbasha Pan
 
-## Professor: Daniel Peters
-
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
-
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
 
 ### SetUp Instructions
 1. Please clone the repository on your local system
 2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
+### Overview
+Implement an Adapter design pattern for Stock Program. 
+Created a Client API and a Legacy API, ensuring that both APIs are distinct. 
+The Adapter, designed to bridge the gap between the Client API and the Legacy API, derives from the Client API using class composition through inheritance (IS-A relationship).
+Moreover, the Adapter utilizes the Legacy API by employing object composition (HAS-A relationship), allowing seamless integration of the existing Legacy object within the new Client API. 
+The implementation should includes a static demo method within the Adapter to showcase the functionality of the Adapter design pattern.
 
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
 
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
 
-Author:
-- Aditya Mulik (mulik.a@northeastern.edu)
-- Sai Akhil Vemula (vemula.v@northeastern.edu)
+
+
+
